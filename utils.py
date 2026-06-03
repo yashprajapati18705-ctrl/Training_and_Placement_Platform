@@ -94,7 +94,7 @@ def sidebar_nav(items: list[str]) -> str:
             if st.button(item, use_container_width=True, key=f"nav_{item}"):
                 st.session_state['page'] = item.lower().replace(" ", "_")
         st.markdown("---")
-        if st.button("🚪 Logout", use_container_width=True):
+        if st.button("Logout", use_container_width=True):
             from auth import logout
             logout()
             st.rerun()
