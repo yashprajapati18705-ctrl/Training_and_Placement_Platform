@@ -118,7 +118,7 @@ Create a `.env` file in the root directory and add:
 DB_HOST=localhost
 DB_PORT=3306
 DB_USER=root
-DB_PASSWORD=123456789
+DB_PASSWORD=XXXXXXXX
 DB_NAME=training_db
 ```
 
